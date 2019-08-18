@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+.field {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: lightgreen;
+}
+
+.excel {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+.snakeBody {
+	background-color: green;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.head {
+	background-color: red;
+	background-size: cover;
+	border-radius: 10%;
+}
+
+.carrot {
+	background: url(img/food.png);
+	background-size: cover;
+}
+
+.score {
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 30px;
+	display: block;
+}
